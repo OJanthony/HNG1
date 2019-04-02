@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="container">
+      <div class="row">
+        <header id="top_header">
+        <h2><strong>PERSONAL REFERENCE(FRIENDS AND RELATIVES ARE NOT ACCEPTED):</strong></h2></header>
+        <form class="form-inline" action="index.html" method="post">
+        <div class="form-group">
+          <label for="MR/MRS">MR/MRS:</label>
+          <div class="row">
+          <div class="col-sm-4">
+          <br><input type="text" class="form-control" placeholder="Name"></br>
+          <br><input type="text" class="form-control" placeholder="Position/Job Title"></br>
+          </div>
+
+
+          <div class="row">
+          <div class="col-sm-4">
+          <label for=""></label>
+          <br><input type="text" class="form-control" placeholder="Relationship"></br>
+          <br><input type="text" class="form-control" placeholder="Address(P.O BOX not acceptable)"></br>
+          </div>
+
+          <div class="row">
+          <div class="col-sm-4">
+          <br><input type="text" class="form-control" placeholder="Phone Number"></br>
+          <br><input type="text" class="form-control" placeholder="E-mail Address:"></br>
+
+          </div>
+          </div>
+          </div>
+          </div>
+          <form class="form-inline" action="index.html" method="post">
+          <div class="form-group">
+          <br><label for="submit">Date</label></br>
+          <input type="date" class="form-control" name="Date" value="Date">
+          </div>
+          </form>
+          <form class="form-inline" action="index.html" method="post">
+          <div class="form-group">
+          <br><label for="submit/cancel"></label></br>
+          <button type="button" class="btn btn-primary">Submit</button>
+          <button type="button" class="btn btn-danger">Cancel</button>
+          </div>
+          </form>
+
+          <div class="form-group">
+            <br><label for="MR/MRS">MR/MR:</label></br>
+              <div class="row">
+              <div class="col-sm-4">
+              <br><input type="text" class="form-control" placeholder="Name"></br>
+              <br><input type="text" class="form-control" placeholder="Position/Job Title"></br>
+              </div>
+
+
+
+              <div class="col-sm-4">
+              <br><input type="text" class="form-control" placeholder="Relationship"></br>
+              <br><input type="text" class="form-control" placeholder="Address(P.O BOX not acceptable)"></br>
+              </div>
+
+
+
+
+              <div class="col-sm-4">
+              <br><input type="text" class="form-control" placeholder="Phone Number"></br>
+              <br><input type="text" class="form-control" placeholder="E-mail Address:"></br>
+              </div>
+              </div>
+              </form>
+
+
+        <form class="form-inline" action="index.html" method="post">
+        <div class="form-group">
+        <br><label for="submit">Date</label></br>
+        <input type="date" class="form-control" name="Date" value="Date">
+        </div>
+        </form>
+        <form class="form-inline" action="index.html" method="post">
+        <div class="form-group">
+        <br><label for="submit/cancel"></label></br>
+        <button type="button" class="btn btn-primary">Submit</button>
+        <button type="button" class="btn btn-danger">Cancel</button>
+        </div>
+        </form>
+</div>
+</div>
+</body>
+</html>
